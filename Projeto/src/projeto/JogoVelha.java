@@ -601,7 +601,7 @@ public class JogoVelha extends JFrame {
     }
 
     final private void grava(String vencedor, String perdedor) {
-        Path arquivo = Path.of("C:/Users/User/Documents/Programação/NetBeansProjects/Projeto/src/files/projeto.txt");
+        Path arquivo = Path.of("./files/projeto.txt");
         perdedor += "-";     
         vencedor += " ";
         String recebe = "";

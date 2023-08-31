@@ -43,7 +43,7 @@ public class Partidas extends JFrame {
     }
 
     public final static int testar(String nome) {
-        Path arquivo = Path.of("C:/Users/User/Documents/Programação/NetBeansProjects/Projeto/src/files/projeto.txt");
+        Path arquivo = Path.of("./files/projeto.txt");
         try {
             List<String> lendo = Files.readAllLines(arquivo);
             for (String linha : lendo) {
@@ -65,7 +65,7 @@ public class Partidas extends JFrame {
         String converte, vencedor, perdedor;
 
         int k = 0;
-        Path arquivo = Path.of("C:/Users/User/Documents/Programação/NetBeansProjects/Projeto/src/files/projeto.txt");
+        Path arquivo = Path.of("./files/projeto.txt");
         try {
             List<String> lendo = Files.readAllLines(arquivo);
             for (String linha : lendo) {
